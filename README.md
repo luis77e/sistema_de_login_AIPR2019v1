@@ -5,4 +5,5 @@ Sistema De login com registro de novo usuário e recuperação de senha
 Configuramos o projeto milestones e issues para o sistema de login.
 Criação do arquivo index.php e formulario de login.
 
-
+## aula02 - 19/07/2k19
+Fizemos o formulario de cadastro e recuperação de senha 
