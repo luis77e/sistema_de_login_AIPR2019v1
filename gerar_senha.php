@@ -13,16 +13,32 @@
 </head>
 
 <body>
-   <main class="container">
+    <main class="container">
         <section class="row justify-content-center">
             <div class="col-lg-5 mt-5">
                 <h3 class="text-center bg-dark text-light p-2 rounded">
-                Crie uma nova senha! 
+                    Crie uma nova senha!
                 </h3>
+                <h4 class="text-center">
+                    <?= @$msg ?>
 
+                </h4>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label form="senha">Nova senha</label>
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Nova Senha" Required>
+                        </div>
+                    <div class="form-group">
+                        <label form="senha">Confirme a senha</label>
+                        <input type="password" name="csenha" id="csenha" class="form-control" placeholder="Confirme a senha" Required>
+                    </div>
+                    <div class="form-group">
+                     <input type="submit" value=":: Gerar Nova Senha::" name="criar" class="btn btn-primary btn-block">
+                    </div>
+                </form>
             </div>
         </section>
-   </main>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
